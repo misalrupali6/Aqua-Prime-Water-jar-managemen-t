@@ -1,0 +1,112 @@
+customer_info_table_  :  
+
+
+insert into customer_info_table values(default , "Sumit" , "Pawar" , "Mahalakshi-apartment chinchwad, pune", 8695741256, "sumitpawar2151@gmail.com" , "sumit123" , "sumit#5555" , 415456, "Mahalakshi-apartment chinchwad, pune");
+
+insert into customer_info_table values(default , "Rushikesh" , "Kadam" , "Hadapsar,Pune", 9665372401, "rushik123@gmail.com" , "rushi896" , "1234@rushi" , 415422, "D-Wing,Vishwakrupa Apartment,Hadapsar,Pune,Maharashtra");	
+
+insert into customer_info_table values(default , "Siddarth" , "Gharapankar" , "Wakad,Pune", 8653421056, "sid123@gmail.com" , "sid1998" , "1998@sid" , 415426, "B-Wing,Ramdas Apartment,Wakad,Pune,Maharashtra");
+
+insert into customer_info_table values(default , "Dhiraj" , "Desai" , "Chinchwad,Pune", 9665896323, "dhiraj7896@gmail.com" , "sid1998" , "1998@sid" , 415426, "B-Wing,Ramdas Apartment,Wakad,Pune,Maharashtra");
+
+insert into customer_info_table values(default , "Suraj" , "Shahapure" , "Kalewadi,Pune", 9896457623, "suraj5693@gmail.com" , "suraj1998" , "suraj9632" , 415486, "Ranubai Apartment,Kalewadi,Pune,Maharashtra");
+
+insert into customer_info_table values(default , "Akash" , "Patil" , "Dhanakwadi,Pune", 8675964231, "ak5693@gmail.com" , "ak@7856" , "ak@396" , 415445, "D-Wing Deviraj-Apartment,Dhanakwadi,Pune,Maharashtra");
+
+
+===================================================================================
+
+supplier_info_table_ 
+
+
+insert into supplier_info_table values(default , "Ramesh" , "Patil", 
+"Pune , Swargate, near stand" , 9632568952, "ramesh@1234gmail.com" , "ram123", "ramesh456", "Kalewadi", 415486);
+
+insert into supplier_info_table values(default , "Suresh" , "Chavan", 
+"Parshawnath Colony,Dhamani Road,Balewadi,Pune" , 8693523641, "sureshc8695@gmail.com" , "suresh8558", "suresh7896", "Balewadi", 415123);
+
+insert into supplier_info_table values(default , "Mahesh" , "Shinde", 
+"Shubh road , PArvati Building Chakan" , 9675862340, "mahesh8695@gmail.com" , "mahesh7896", "mahesh@7896", "Chakan", 415004);
+
+
+===============================================
+
+jar_category_table_
+
+insert  into jar_category_table values(default,10,'Mineral water',150);
+insert  into jar_category_table values(default,10,'Normal Water',100);
+insert  into jar_category_table values(default,10,'chilled water',125);
+
+
+===============================================
+
+subscription_table_  
+
+
+insert into subscription_table values(default , 2, 1 , 2, 2022-03-03, 2022-04-03, active);
+
+
+insert  into subscription_table values(default,2,1,1,'2022-02-02','2022-03-03','active');
+
+insert  into subscription_table values(default,3,2,2,'2022-02-28','2022-03-28','active');
+
+insert  into subscription_table values(default,4,3,3,'2021-02-15','2022-03-15','active');
+
+insert  into subscription_table values(default,5,2,3,'2021-02-20','2022-03-20','active');
+
+
+================================================
+
+extra_order_table_
+
+
+
+insert into extra_order_table values(default , 6, 3, 1, '2022-03-23', 1, '2022-03-25', "pending");
+
+
+
+
+===========================================
+
+non_delivery_record_  
+
+
+insert  into non_delivery_record values(default,1,'2021-05-05','approved');
+insert  into non_delivery_record values(default,3,'2021-04-04','approved');
+insert  into non_delivery_record values(default,2,'2021-03-03','approved');
+insert  into non_delivery_record values(default,1,'2021-01-01','approved');
+
+
+=======================================================
+customer_bill_table_ 
+
+
+insert into customer_bill_table values(default , 2, '2022-02-28',"February", 23 , 64, 6400, 'Pending');
+
+insert into customer_bill_table values(default , 3, '2022-03-01',"March", 30 , 60, 6000, 'Pending');
+
+insert into customer_bill_table values(default , 4, '2022-02-28',"February", 28 , 56, 5600, 'Pending');
+
+===============================================
+complaint_table_ 
+
+
+
+insert  into complaint_table values(default,5,'Not-recived','2022-02-02','Resolve');
+
+insert  into complaint_table values(default,2,'Not in time','2022-01-03','Not-Resolve');
+
+insert  into complaint_table values(default,3,'Bad quality','2022-02-04','Not-Resolve');
+
+
+=================================================
+
+complaint_comment_table_ 
+
+
+
+insert  into complaint_comment_table values(default,1,'Trying to Resolve as early as possible','2022-02-02');
+
+insert  into complaint_comment_table values(default,2,'Trying to deliver within time','2022-01-03');
+
+insert  into complaint_comment_table values(default,3,'Quality improved','2022-03-01');
